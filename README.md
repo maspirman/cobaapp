@@ -1,6 +1,6 @@
 # Weather Web App
 
-Basic [weather web app](https://oleksiyrudenko.github.io/weather-webapp/) employing public API.
+Basic [weather web app](https://maspirman.github.io/weather-app-coba/) employing public API.
 
 Developed as a part of 
 [Task 10 of Kottans FrontEnd Course](https://github.com/kottans/frontend/blob/master/test10.md)
@@ -22,15 +22,12 @@ Developed as a part of
 
 ### Features
 
- * Search by City name
- * Search by geo coordinates
- * Current weather and 5 days forecast
- * 20 latest cities searched are available in history track
-   (stored per browser)
- * Switch between imperial and metric units
-   (stored per browser)
- * [Open Weather Map](https://openweathermap.org/api) is a weather
-   data source
+*	Pencarian Berdasarkan Nama Kota/Daerah
+*	Pencarian Berdasarakan GOE Cordinates
+*	Menampilkan Cuaca saat ini , Hari ini, dan ramalan 5 hari Kedepan
+*	Menyimpan  history 20 kota terbaru yang dicari, tersedia di trek riwayat (disimpan di browser).
+*	Beralih antara unit imperial dan metrik (disimpan di browser)
+*	Menggunakan API Open Weather Map Untuk Data Sourcenya.
 
 [App architecture](./architecture.md)
 
@@ -38,21 +35,19 @@ Developed as a part of
 
 ### Known Issues
 
- - [ ] Styling is poor
- - [ ] Forecast data removal is done not via style management
- - [ ] Current location not detected
- - [ ] Pre-loaded city list is not used
- - [ ] Favourites management is not implemented
+ - [ ] tampilan masih kurang bagus
+ - [ ] Penghapusan data perkiraan dilakukan bukan melalui manajemen
+ - [ ] tidak mendeteksi lokasi terkini
+ - [ ] Pre-loaded kota/daerah belum terintegrasi
+ - [ ] favorite masih belum berfungsi
  - [ ] Favourites drop-down is not implemented
- - [ ] Search by geo coordinates is not validated
- - [ ] Search errors are technical in style
- - [ ] Units switch doesn't update current data
+ - [ ] pencrian melalui geo corditates masih erir dan hanya menampilkan data daerah
+
 
 [_-- TOC --_](#table-of-contents)
 
-### Installing and building the project
-
-Refer to [building the project](./BUILD.md) for more details.
+### Instal dan build project
+merujuk pada [building the project](./BUILD.md) untuk detail.
 
 [_-- TOC --_](#table-of-contents)
 
@@ -73,21 +68,3 @@ using [push-dir](https://www.npmjs.com/package/push-dir)
 
 [_-- TOC --_](#table-of-contents)
 
-### Time Track
-
- * `TOTAL= 28h25`
- * `171222 00h10` - setup
- * `171222 00h20` - initial research
- * `171223 01h35` - app architecture design
- * `171224 03h20` - view
- * `171224 01h50` - unit switch controller and settings service
- * `171224 00h20` - storage service
- * `171224 05h00` - city list feature
- * `180102 00h45` - research on `webpack`
- * `180103 01h40` - storage.put progress controller
- * `180103 03h55` - feature:search _(UI management took 2hrs of efforts)_
- * `180104 06h10` - feature:weather
- * `180110 02h40` - feature:history
- * `180113 00h40` - feature:url: query and browser history 
-
-[_-- TOC --_](#table-of-contents)
